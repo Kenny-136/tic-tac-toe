@@ -1,6 +1,23 @@
+body {
+    background-color: lightblue;
+}
+
 header {
     display: grid;
     place-items: center;
+}
+.titlebox {
+    border: 1px solid black;
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+.progressbox {
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px;
 }
 main {
     display: flex;
@@ -10,6 +27,7 @@ main {
     display: grid;
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 100px 100px 100px;
+    background-color: antiquewhite;
 }
 
 .gameBox > div {
@@ -20,4 +38,12 @@ main {
     place-items: center;
     font-size: 48px;
     font-weight: bold;
+}
+
+.player1box, .player2box {
+    border: 1px solid black;
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
 }

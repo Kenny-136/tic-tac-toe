@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="./the-game-style.css">
 </head>
+
 <body>
     <header>
-        <h1>Tic Tac Toe</h1>
-        <h2>Progress</h2>
-    </header>
-    <main>
-        <section class="gameBox">
-            <div id="box1"></div>
-            <div id="box2"></div>
-            <div id="box3"></div>
-            <div id="box4"></div>
-            <div id="box5"></div>
-            <div id="box6"></div>
-            <div id="box7"></div>
-            <div id="box8"></div>
-            <div id="box9"></div>
+        <section class="titlebox">
+            <h1>Tic Tac Toe</h1>
         </section>
-    </main>
-    <footer>
+        <section class="progressbox">
+            <h2>Progress</h2>
+        </section>
+    </header>
 
+    <main>
+        <aside class="player1box">
+            <h3>Player 1</h3>
+        </aside>
+        <section class="gameBox">
+            <div class="allBox" id="box1"></div>
+            <div class="allBox" id="box2"></div>
+            <div class="allBox" id="box3"></div>
+            <div class="allBox" id="box4"></div>
+            <div class="allBox" id="box5"></div>
+            <div class="allBox" id="box6"></div>
+            <div class="allBox" id="box7"></div>
+            <div class="allBox" id="box8"></div>
+            <div class="allBox" id="box9"></div>
+        </section>
+        <aside class="player2box">
+            <h3>Player 2</h3>
+        </aside>
+    </main>
+
+    <footer>
+        <button id="resetButton">Reset Board</button>
     </footer>
 
     <script src="./the-game-script.js"></script>
 </body>
+
 </html>
