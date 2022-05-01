@@ -11,18 +11,30 @@
 
 <body>
     <header>
-        <section class="titlebox">
-            <h1>Tic Tac Toe</h1>
+        <section class="topHeader">
+            <section class="titlebox">
+                <h1>Tic Tac Toe</h1>
+            </section>
         </section>
-        <section class="progressbox">
-            <h2>Progress</h2>
+        <section class="botHeader">
+            <section class="nameInput">
+                <input id="p1nameInput" type="text" placeholder="Enter Player 1 Name Here">
+                <button id="p1nameBtn">Enter</button>
+            </section>
+            <section class="topBox">
+                <h2>Game Start</h2>
+            </section>
+            <section class="nameInput">
+                <input id="p2nameInput" type="text" placeholder="Enter Player 2 Name Here">
+                <button id="p2nameBtn">Enter</button>
+            </section>
         </section>
     </header>
 
     <main>
         <aside class="player1box">
-            <h3>Player 1</h3>
-            <span id="p1Score">0</span>
+            <h3 id="player1name">Player 1</h3>
+            <div id="p1Score">0</div>
         </aside>
         <section class="gameBox">
             <div class="allBox" id="box1"></div>
@@ -36,13 +48,15 @@
             <div class="allBox" id="box9"></div>
         </section>
         <aside class="player2box">
-            <h3>Player 2</h3>
-            <span id="p2Score">0</span>
+            <h3 id="player2name">Player 2</h3>
+            <div id="p2Score">0</div>
         </aside>
     </main>
 
     <footer>
+
         <button id="resetButton">Reset Board</button>
+
     </footer>
 
     <script src="./the-game-script.js"></script>

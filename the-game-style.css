@@ -1,16 +1,35 @@
 body {
-    background-color: lightblue;
-}
-
-header {
-    display: grid;
-    place-items: center;
+    background-color: #4281a4;
 }
 .titlebox {
     border: 1px solid black;
     width: 300px;
     text-align: center;
     margin: 10px;
+    background-color: #fe938c;
+}
+.topHeader {
+    display: flex;
+    justify-content: center;
+}
+.botHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameInput {
+    display: flex;
+    flex-direction: row;
+    background-color: #e6b89c;
+}
+.topBox {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ead2ac;
+    text-align: center;
 }
 
 .progressbox {
@@ -18,6 +37,14 @@ header {
     text-align: center;
     border: 1px solid black;
     margin: 20px;
+    border-radius: 15%;
+    background-color: 	#ead2ac;
+}
+#p1nameInput, #p2nameInput {
+    background-color: #e6b89c;
+    width: 250px;
+    text-align: center;
+    height: 25px;
 }
 main {
     display: flex;
@@ -27,7 +54,7 @@ main {
     display: grid;
     grid-template-rows: 100px 100px 100px;
     grid-template-columns: 100px 100px 100px;
-    background-color: antiquewhite;
+    background-color: #fe938c;
 }
 
 .gameBox > div {
@@ -46,4 +73,28 @@ main {
     margin-right: 20px;
     margin-left: 20px;
     text-align: center;
+    border-radius: 10%;
+    background-color: #e6b89c;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#p1Score , #p2Score {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#resetButton {
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    background-color: #e6b89c;
+    text-align: center;    
 }
